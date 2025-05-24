@@ -24,11 +24,11 @@ global.botname = process.env.BOT_NAME || 'Queen-Adiza'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233593734312' 
+global.ownernumber = process.env.OWNER_NUMBER || '2349099351445' 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Matrix-X-King' 
+global.ownername = process.env.OWNER_NAME || 'CHXSE' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
