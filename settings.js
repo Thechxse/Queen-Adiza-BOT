@@ -15,16 +15,16 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'QUEEN-ADIZA~aUJjRSrR#Tk3rq9fgb7MqB3ELuLbdBOYOCHVyj6S78LZpBe0JRxE' 
+global.SESSION_ID = process.env.SESSION_ID || 'QUEEN-ADIZA~' 
 //Enter your Adiza session id here; must start with QUEEN~ADIZA~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'Queen-Adiza' 
+global.botname = process.env.BOT_NAME || 'CHXSE' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '2349065837528' 
+global.ownernumber = process.env.OWNER_NUMBER || '2349099351445' 
 
 //-----------------[ OWNER NAME ]------------------//
 
@@ -32,11 +32,11 @@ global.ownername = process.env.OWNER_NAME || 'CHXSE'
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "Queen-Adiza" 
+global.packname = process.env.STICKER_PACK_NAME || "CHXSE" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Adizatu" 
+global.author = process.env.STICKER_AUTHOR_NAME || "CHXSE" 
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
@@ -49,13 +49,13 @@ global.plink = process.env.PLINK || "https://www.instagram.com/heyits_matrix?igs
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "® 𝘼𝙙𝙞𝙯𝙖𝙩𝙪🌹"
+global.wm = process.env.GL_WM || "® CHXSE⚡"
 
 //---------------------[ REPLIES ]-----------------------//
 
 global.mess = { 
   done: '*Done*', 
-  success: '©Matrix', 
+  success: '©CHXSE', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
