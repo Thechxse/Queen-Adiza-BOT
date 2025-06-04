@@ -1,12 +1,12 @@
 //-------------------[ BOT SETTINGS ]------------------// 
 
-// @project_name : MATRIX-X-KING
-// @author : MATRIX
+// @project_name : CHXSE
+// @author : CHXSE
 // @telegram : http://t.me/MatriXXXXXXXXX
 // @github : Matrix1999
 // @whatsapp : +233593734312
 
-//----------------------[ MATRIX-KING ]----------------------//
+//----------------------[ CHXSE ]----------------------//
 
 const fs = require('fs')
 const { color } = require('./lib/color')
@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'QUEEN-ADIZA~jMZgRD5B#RVxUPWR-S22UREqwdCR_twYk8hKWfYpBubvc218pH6c' 
+global.SESSION_ID = process.env.SESSION_ID || 'QUEEN-ADIZA~jZJDQQiZ#eJBceLPSZKuGKGSKFiJVKXDsWDua8eWLdq6SNq01bOk' 
 //Enter your Adiza session id here; must start with QUEEN~ADIZA~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -45,7 +45,7 @@ global.dbToken = process.env.GITHUB_TOKEN || "";
 
 //-----------------[ CONTEXT LINK ]--------------------//
 
-global.plink = process.env.PLINK || "https://www.instagram.com/heyits_matrix?igsh=YzljYTk1ODg3Zg---"
+global.plink = process.env.PLINK || "https://www.instagram.com/thechx53"
 
 //------------------[ WATERMARK ]--------------------//
 
@@ -72,4 +72,4 @@ fs.watchFile(file, () => {
   require(file)
 })
 
-//----------------------[ MATRIX-X ]----------------------//
+//----------------------[ CHXSE ]----------------------//
